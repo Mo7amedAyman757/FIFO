@@ -7,7 +7,8 @@ This project involves the **Universal Verification Methodology (UVM)** verificat
 ---
 
 ## UVM Structure
-<img width="463" height="530" alt="uvm_fifo" src="https://github.com/user-attachments/assets/8a6a727b-e648-4f2b-a09a-5a27cc211885" />
+<img width="960" height="1099" alt="FIFO_sync" src="https://github.com/user-attachments/assets/f9dccec3-1dc4-4d75-8ac9-49bc0fbb36f4" />
+
 
 
 ### Key Features of the FIFO:

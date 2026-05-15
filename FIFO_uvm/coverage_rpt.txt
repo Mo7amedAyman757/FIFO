@@ -6,7 +6,7 @@ Coverage Report by instance with details
 =================================================================================
 
 Assertion Coverage:
-    Assertions                      11         7         4    63.63%
+    Assertions                      11        11         0   100.00%
 --------------------------------------------------------------------
 Name                 File(Line)                   Failure      Pass 
                                                   Count        Count
@@ -18,13 +18,13 @@ Name                 File(Line)                   Failure      Pass
 /FIFO_top/dut/assert__WrPtr_Wraparound
                      FIFO.sv(153)                       0          1
 /FIFO_top/dut/assert__AlmostEmpty_Flag
-                     FIFO.sv(144)                     989          1
+                     FIFO.sv(144)                       0          1
 /FIFO_top/dut/assert__AlmostFull_Flag
-                     FIFO.sv(136)                    4216          1
+                     FIFO.sv(136)                       0          1
 /FIFO_top/dut/assert__Empty_Flag
-                     FIFO.sv(129)                     758          1
+                     FIFO.sv(129)                       0          1
 /FIFO_top/dut/assert__Full_Flag
-                     FIFO.sv(122)                    2996          1
+                     FIFO.sv(122)                       0          1
 /FIFO_top/dut/assert__underflow_detection
                      FIFO.sv(115)                       0          1
 /FIFO_top/dut/assert__overflow_detection
@@ -310,10 +310,10 @@ Name                                     Design Design   Lang File(Line)      Hi
 /FIFO_top/dut/cover__Ptr_Threshold       FIFO   Verilog  SVA  FIFO.sv(171)    29466 Covered   
 /FIFO_top/dut/cover__RdPtr_Wraparound    FIFO   Verilog  SVA  FIFO.sv(162)    1379 Covered   
 /FIFO_top/dut/cover__WrPtr_Wraparound    FIFO   Verilog  SVA  FIFO.sv(154)    1738 Covered   
-/FIFO_top/dut/cover__AlmostEmpty_Flag    FIFO   Verilog  SVA  FIFO.sv(145)     929 Covered   
-/FIFO_top/dut/cover__AlmostFull_Flag     FIFO   Verilog  SVA  FIFO.sv(137)    3880 Covered   
-/FIFO_top/dut/cover__Empty_Flag          FIFO   Verilog  SVA  FIFO.sv(130)     327 Covered   
-/FIFO_top/dut/cover__Full_Flag           FIFO   Verilog  SVA  FIFO.sv(123)    3498 Covered   
+/FIFO_top/dut/cover__AlmostEmpty_Flag    FIFO   Verilog  SVA  FIFO.sv(145)    1939 Covered   
+/FIFO_top/dut/cover__AlmostFull_Flag     FIFO   Verilog  SVA  FIFO.sv(137)    8238 Covered   
+/FIFO_top/dut/cover__Empty_Flag          FIFO   Verilog  SVA  FIFO.sv(130)    1109 Covered   
+/FIFO_top/dut/cover__Full_Flag           FIFO   Verilog  SVA  FIFO.sv(123)    6618 Covered   
 /FIFO_top/dut/cover__underflow_detection FIFO   Verilog  SVA  FIFO.sv(116)     513 Covered   
 /FIFO_top/dut/cover__overflow_detection  FIFO   Verilog  SVA  FIFO.sv(108)    4496 Covered   
 /FIFO_top/dut/cover__Write_Acknowledge   FIFO   Verilog  SVA  FIFO.sv(100)    15824 Covered   
@@ -2025,10 +2025,10 @@ Name                                     Design Design   Lang File(Line)      Hi
 /FIFO_top/dut/cover__Ptr_Threshold       FIFO   Verilog  SVA  FIFO.sv(171)    29466 Covered   
 /FIFO_top/dut/cover__RdPtr_Wraparound    FIFO   Verilog  SVA  FIFO.sv(162)    1379 Covered   
 /FIFO_top/dut/cover__WrPtr_Wraparound    FIFO   Verilog  SVA  FIFO.sv(154)    1738 Covered   
-/FIFO_top/dut/cover__AlmostEmpty_Flag    FIFO   Verilog  SVA  FIFO.sv(145)     929 Covered   
-/FIFO_top/dut/cover__AlmostFull_Flag     FIFO   Verilog  SVA  FIFO.sv(137)    3880 Covered   
-/FIFO_top/dut/cover__Empty_Flag          FIFO   Verilog  SVA  FIFO.sv(130)     327 Covered   
-/FIFO_top/dut/cover__Full_Flag           FIFO   Verilog  SVA  FIFO.sv(123)    3498 Covered   
+/FIFO_top/dut/cover__AlmostEmpty_Flag    FIFO   Verilog  SVA  FIFO.sv(145)    1939 Covered   
+/FIFO_top/dut/cover__AlmostFull_Flag     FIFO   Verilog  SVA  FIFO.sv(137)    8238 Covered   
+/FIFO_top/dut/cover__Empty_Flag          FIFO   Verilog  SVA  FIFO.sv(130)    1109 Covered   
+/FIFO_top/dut/cover__Full_Flag           FIFO   Verilog  SVA  FIFO.sv(123)    6618 Covered   
 /FIFO_top/dut/cover__underflow_detection FIFO   Verilog  SVA  FIFO.sv(116)     513 Covered   
 /FIFO_top/dut/cover__overflow_detection  FIFO   Verilog  SVA  FIFO.sv(108)    4496 Covered   
 /FIFO_top/dut/cover__Write_Acknowledge   FIFO   Verilog  SVA  FIFO.sv(100)    15824 Covered   
@@ -2048,13 +2048,13 @@ Name                 File(Line)                   Failure      Pass
 /FIFO_top/dut/assert__WrPtr_Wraparound
                      FIFO.sv(153)                       0          1
 /FIFO_top/dut/assert__AlmostEmpty_Flag
-                     FIFO.sv(144)                     989          1
+                     FIFO.sv(144)                       0          1
 /FIFO_top/dut/assert__AlmostFull_Flag
-                     FIFO.sv(136)                    4216          1
+                     FIFO.sv(136)                       0          1
 /FIFO_top/dut/assert__Empty_Flag
-                     FIFO.sv(129)                     758          1
+                     FIFO.sv(129)                       0          1
 /FIFO_top/dut/assert__Full_Flag
-                     FIFO.sv(122)                    2996          1
+                     FIFO.sv(122)                       0          1
 /FIFO_top/dut/assert__underflow_detection
                      FIFO.sv(115)                       0          1
 /FIFO_top/dut/assert__overflow_detection
@@ -2066,5 +2066,5 @@ Name                 File(Line)                   Failure      Pass
 /FIFO_sequence_pkg/FIFO_rd_wr_sequence/body/#ublk#38615015#87/immed__89
                      FIFO_sequence.sv(89)               0          1
 
-Total Coverage By Instance (filtered view): 72.65%
+Total Coverage By Instance (filtered view): 78.21%
 

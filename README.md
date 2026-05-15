@@ -7,6 +7,9 @@ This project involves the **Universal Verification Methodology (UVM)** verificat
 ---
 
 ## UVM Structure
+<img width="960" height="1099" alt="FIFO_sync" src="https://github.com/user-attachments/assets/f9dccec3-1dc4-4d75-8ac9-49bc0fbb36f4" />
+
+
 
 ### Key Features of the FIFO:
 - **FIFO_WIDTH**: Configurable data width (default: 16 bits).
@@ -54,7 +57,7 @@ A full UVM environment has been implemented to verify the FIFO design. This incl
 6. **FIFO Monitor (FIFO_MONITOR.sv)**: Observes the DUT's input and output, sampling transactions for the scoreboard and coverage.
 7. **FIFO Scoreboard (FIFO_SCOREBOARD.sv)**: Compares the DUT's outputs with the expected values to verify correctness.
 8. **FIFO Coverage Collector (FIFO_COVERAGE_COLLECTOR.sv)**: Captures functional coverage for key aspects of the FIFO, including various signal transitions and edge cases (full, empty, almost full, etc.).
-9. **Assertions (FIFO_SVA.sv)**: SystemVerilog assertions ensure proper protocol adherence by the FIFO (e.g., no write when FIFO is full, no read when empty).
+9. **Assertions (insde the dut)**: SystemVerilog assertions ensure proper protocol adherence by the FIFO (e.g., no write when FIFO is full, no read when empty).
 10. **Top-Level Environment (FIFO_ENV.sv)**: Instantiates and connects all UVM components to form the complete test environment.
 11. **Main Test (FIFO_TEST.sv)**: Main test file to run UVM tests, initiating the entire verification flow.
 
@@ -108,7 +111,6 @@ FIFO-UVM/
 │   ├── FIFO_SCOREBOARD.sv                  # Scoreboard for output checking
 │   ├── FIFO_SEQUENCER.sv                   # Sequencer for generating test sequences
 │   ├── FIFO_SEQUENCE_ITEM.sv               # Sequence item definition
-│   ├── FIFO_SVA.sv                         # Assertions for the FIFO
 │   ├── FIFO_TEST.sv                        # Main UVM test file
 │   ├── FIFO_TOP.sv                         # Top-level module for testbench
 │   ├── FIFO_WRITE_READ_SEQUENCE.sv         # Write-read operation sequence

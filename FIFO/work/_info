@@ -9,371 +9,341 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/sync_fifo
+dC:/questasim64_2021.1/examples
 T_opt
-!s110 1777769871
-VUcm1BAM5Rm[`I8<WQSf4R3
-04 8 4 work FIFO_top fast 0
-=1-902e16e4070c-69f69d8e-3de-1670
+!s110 1778447849
+VAVg?@DFF4[48P2^UXdn7:1
+04 7 4 work FIFO_tb fast 0
+=1-902e16e4070c-6a00f5e9-104-3660
 !s124 OEM100
-o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
 n@_opt
 OL;O;2021.1;73
 vFIFO
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1777769870
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1778447840
 !i10b 1
-!s100 LQM>dQ<[HMG>P:A_9@Ge51
-IPD5ZihgP88D8h5m;8m2EM0
+!s100 Hj3LNBFQeg@78Bf@A`MQO0
+IlC_8?M=:A84[^S_dV=d7Q3
 S1
-R0
-w1777769274
-8FIFO.sv
-FFIFO.sv
-!i122 0
+Z3 dD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO
+w1777770111
+8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO.sv
+FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO.sv
+!i122 12
 L0 8 162
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z6 !s108 1777769870.000000
-Z7 !s107 FIFO_top.sv|FIFO_tb.sv|FIFO_monitor.sv|FIFO_scoreboard.sv|FIFO_coverage.sv|FIFO_transaction.sv|FIFO_pkg.sv|FIFO_if.sv|FIFO.sv|
-Z8 !s90 -reportprogress|300|-cover|sbcetf|+covercells|+define+SIM|FIFO.sv|FIFO_if.sv|FIFO_pkg.sv|FIFO_transaction.sv|FIFO_coverage.sv|FIFO_scoreboard.sv|FIFO_monitor.sv|FIFO_tb.sv|FIFO_top.sv|
+Z6 !s108 1778447840.000000
+!s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO.sv|
 !i113 0
-Z9 !s102 -cover sbcetf
-Z10 o-cover sbcetf +covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z11 !s92 -cover sbcetf +covercells +define+SIM -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
 n@f@i@f@o
 XFIFO_coverage_pkg
+R1
+Z8 DXx4 work 10 shared_pkg 0 22 V4G@>W[1Kld_Phbz:Y@150
+Z9 DXx4 work 20 FIFO_transaction_pkg 0 22 ^CazN:aDml:gGV]GSDWg>0
 R2
-Z12 DXx4 work 10 shared_pkg 0 22 5W<2<?;HOlHbGLK;jZ1CJ0
-Z13 DXx4 work 20 FIFO_transaction_pkg 0 22 PzI]PJSUg?2h:@eIYI<Ib3
-R3
 !i10b 1
 !s100 hme=:dN>IdDWdY19:a?JC2
-IX4c0DfQaL3X_JoLbL`<`b1
+IJ4Hd0iGi]PT0Y58LTDRna1
 S1
-R0
+R3
 w1777760671
-8FIFO_coverage.sv
-FFIFO_coverage.sv
-!i122 0
-Z14 L0 1 0
-VX4c0DfQaL3X_JoLbL`<`b1
+8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_coverage.sv
+FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_coverage.sv
+!i122 13
+Z10 L0 1 0
+VJ4Hd0iGi]PT0Y58LTDRna1
 R5
 r1
 !s85 0
 31
 R6
-R7
-R8
+!s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_coverage.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_coverage.sv|
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_coverage_pkg
 YFIFO_if
+R1
 R2
-R3
 !i10b 1
 !s100 D<RTa9;hPXecdK<;Yl7YO1
-IcVkRTV:7QMozhCEFz=0PW1
+IB09gb3V<R1Im<i_B61_d30
 S1
-R0
+R3
 w1777731085
-8FIFO_if.sv
-FFIFO_if.sv
-!i122 0
-R14
+8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_if.sv
+FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_if.sv
+!i122 14
+R10
 R4
 R5
 r1
 !s85 0
 31
 R6
-R7
-R8
+!s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_if.sv|
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_if
 vFIFO_monitor
+R1
+R8
+R9
+Z11 DXx4 work 17 FIFO_coverage_pkg 0 22 J4Hd0iGi]PT0Y58LTDRna1
+Z12 DXx4 work 19 FIFO_scoreboard_pkg 0 22 JBPZYC<:USL`?HfjX59QH1
+DXx4 work 20 FIFO_monitor_sv_unit 0 22 ameFAKd0N^M=]Y;E=6J1<1
 R2
-R2
-R12
-R13
-Z15 DXx4 work 17 FIFO_coverage_pkg 0 22 X4c0DfQaL3X_JoLbL`<`b1
-Z16 DXx4 work 19 FIFO_scoreboard_pkg 0 22 >R?T5h02>aBajfdgI;Mmg3
-DXx4 work 20 FIFO_monitor_sv_unit 0 22 0_IR;;ik4ZIO3<T3V_XQ73
-R3
 R4
 r1
 !s85 0
 !i10b 1
 !s100 6`aD6Rz4WSgA3P953Kje]2
-IY8m]G4PUXHnnVeZEk6ZA61
+INf9_Mfj?z?P;[0AAU87XY1
 !s105 FIFO_monitor_sv_unit
 S1
-R0
-Z17 w1777766933
-Z18 8FIFO_monitor.sv
-Z19 FFIFO_monitor.sv
-!i122 0
+R3
+Z13 w1777766933
+Z14 8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_monitor.sv
+Z15 FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_monitor.sv
+!i122 15
 L0 6 41
 R5
 31
 R6
-R7
-R8
+Z16 !s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_monitor.sv|
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_monitor.sv|
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_monitor
 XFIFO_monitor_sv_unit
-R2
-R2
+R1
+R8
+R9
+R11
 R12
-R13
-R15
-R16
-R3
-V0_IR;;ik4ZIO3<T3V_XQ73
+R2
+VameFAKd0N^M=]Y;E=6J1<1
 r1
 !s85 0
 !i10b 1
-!s100 _?=0OhU@J55H7>7c6ecn31
-I0_IR;;ik4ZIO3<T3V_XQ73
+!s100 `H?=3FzY5o2GZm:O5CXhl2
+IameFAKd0N^M=]Y;E=6J1<1
 !i103 1
 S1
-R0
-R17
-R18
-R19
-!i122 0
+R3
+R13
 R14
+R15
+!i122 15
+R10
 R5
 31
 R6
-R7
-R8
+R16
+R17
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_monitor_sv_unit
 XFIFO_scoreboard_pkg
+R1
+R8
+R9
 R2
-R12
-R13
-R3
 !i10b 1
 !s100 agaBI;lBbOG=o8L[0:oO>1
-I>R?T5h02>aBajfdgI;Mmg3
+IJBPZYC<:USL`?HfjX59QH1
 S1
-R0
-w1777769036
-8FIFO_scoreboard.sv
-FFIFO_scoreboard.sv
-!i122 0
-R14
-V>R?T5h02>aBajfdgI;Mmg3
+R3
+w1777770333
+8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_scoreboard.sv
+FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_scoreboard.sv
+!i122 17
+R10
+VJBPZYC<:USL`?HfjX59QH1
 R5
 r1
 !s85 0
 31
 R6
-R7
-R8
+!s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_scoreboard.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_scoreboard.sv|
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_scoreboard_pkg
 vFIFO_tb
-R2
-R2
-R12
-R13
-DXx4 work 15 FIFO_tb_sv_unit 0 22 9QgPT3id@ANBeV3<SogNz1
-R3
+R1
+R8
+R9
+DXx4 work 15 FIFO_tb_sv_unit 0 22 d6Xlekcbm@SFl9ROjOHRV0
+Z18 !s110 1778447841
 R4
 r1
 !s85 0
 !i10b 1
 !s100 ^2Yf?dSWcP9T6Lige`I8c3
-I3NAz[F5M;b=klD`3hTG=F0
+IRh>H5i>]mo`kKR9=VQMMG2
 !s105 FIFO_tb_sv_unit
 S1
-R0
-Z20 w1777768508
-Z21 8FIFO_tb.sv
-Z22 FFIFO_tb.sv
-!i122 0
+R3
+Z19 w1777768508
+Z20 8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_tb.sv
+Z21 FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_tb.sv
+!i122 18
 L0 4 63
 R5
 31
 R6
-R7
-R8
+Z22 !s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_tb.sv|
+Z23 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_tb.sv|
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_tb
 XFIFO_tb_sv_unit
-R2
-R2
-R12
-R13
-R3
-V9QgPT3id@ANBeV3<SogNz1
+R1
+R8
+R9
+R18
+Vd6Xlekcbm@SFl9ROjOHRV0
 r1
 !s85 0
 !i10b 1
-!s100 [=::JXLE=mB:?WLDTb<0W3
-I9QgPT3id@ANBeV3<SogNz1
+!s100 eaozM9T`7fXnTQSM;E<jc2
+Id6Xlekcbm@SFl9ROjOHRV0
 !i103 1
 S1
-R0
+R3
+R19
 R20
 R21
-R22
-!i122 0
-R14
+!i122 18
+R10
 R5
 31
 R6
-R7
-R8
+R22
+R23
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_tb_sv_unit
 vFIFO_top
-R2
-R2
-R12
-DXx4 work 16 FIFO_top_sv_unit 0 22 [hLKBOJ0=CYnil6JJCEfh3
-R3
+R1
+R8
+DXx4 work 16 FIFO_top_sv_unit 0 22 9YME9DR@NaQl1gj0631?Y0
+R18
 R4
 r1
 !s85 0
 !i10b 1
 !s100 3JkVMzSh=mW`Taol?V[0F1
-I4Kdd6g`hL04CB2Rd6]_3F1
+IP9b1?=CK?Yd>T@80FXkOX3
 !s105 FIFO_top_sv_unit
 S1
-R0
-Z23 w1777760528
-Z24 8FIFO_top.sv
-Z25 FFIFO_top.sv
-!i122 0
+R3
+Z24 w1777760528
+Z25 8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_top.sv
+Z26 FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_top.sv
+!i122 19
 L0 3 17
 R5
 31
-R6
-R7
-R8
+Z27 !s108 1778447841.000000
+Z28 !s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_top.sv|
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_top.sv|
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_top
 XFIFO_top_sv_unit
-R2
-R2
-R12
-R3
-V[hLKBOJ0=CYnil6JJCEfh3
+R1
+R8
+R18
+V9YME9DR@NaQl1gj0631?Y0
 r1
 !s85 0
 !i10b 1
-!s100 >b1kAC>0P@A:OMz5hH^Kn2
-I[hLKBOJ0=CYnil6JJCEfh3
+!s100 cYSRCP>cMEE?6SnYZl9>^1
+I9YME9DR@NaQl1gj0631?Y0
 !i103 1
 S1
-R0
-R23
+R3
 R24
 R25
-!i122 0
-R14
+R26
+!i122 19
+R10
 R5
 31
-R6
-R7
-R8
+R27
+R28
+R29
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_top_sv_unit
 XFIFO_transaction_pkg
-R2
-R12
-R3
+R1
+R8
+R18
 !i10b 1
 !s100 O;>g5gDYo[ZU375BU0Q[M3
-IPzI]PJSUg?2h:@eIYI<Ib3
+I^CazN:aDml:gGV]GSDWg>0
 S1
-R0
+R3
 w1777760581
-8FIFO_transaction.sv
-FFIFO_transaction.sv
-!i122 0
-R14
-VPzI]PJSUg?2h:@eIYI<Ib3
+8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_transaction.sv
+FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_transaction.sv
+!i122 20
+R10
+V^CazN:aDml:gGV]GSDWg>0
 R5
 r1
 !s85 0
 31
-R6
-R7
-R8
+R27
+!s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_transaction.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_transaction.sv|
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
 n@f@i@f@o_transaction_pkg
 Xshared_pkg
+R1
 R2
-R3
 !i10b 1
 !s100 _NlOODb4R:FZKW;eV1QVc0
-I5W<2<?;HOlHbGLK;jZ1CJ0
+IV4G@>W[1Kld_Phbz:Y@150
 S1
-R0
+R3
 w1777727165
-8FIFO_pkg.sv
-FFIFO_pkg.sv
-!i122 0
-R14
-V5W<2<?;HOlHbGLK;jZ1CJ0
+8D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_pkg.sv
+FD:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_pkg.sv
+!i122 16
+R10
+VV4G@>W[1Kld_Phbz:Y@150
 R5
 r1
 !s85 0
 31
 R6
-R7
-R8
+!s107 D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Career tracks/Digial_IC/08-Design-Verification/11-FIFO/FIFO/FIFO_pkg.sv|
 !i113 0
-R9
-R10
-R11
-R1
+R7
+R0
